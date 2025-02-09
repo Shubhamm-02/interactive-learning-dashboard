@@ -450,3 +450,19 @@ h1, h2, h3, h4 {
 [data-theme="dark"] img:hover {
     opacity: 1;
 }
+
+
+[data-theme="dark"] .question-card {
+  background-color: #1e1e1e;  /* A darker background for better contrast */
+  border: 1px solid #333;     /* A subtle, darker border */
+  color: #e0e0e0;             /* Lighter text for improved legibility */
+  font-size: 1.1rem;          /* Slightly increased font size */
+  line-height: 1.5;           /* More line height for readability */
+  padding: 1rem;              /* Consistent padding */
+}
+
+/* Ensure question headings and paragraphs also adjust properly */
+[data-theme="dark"] .question-card h3,
+[data-theme="dark"] .question-card p {
+  color: #e0e0e0;
+}
