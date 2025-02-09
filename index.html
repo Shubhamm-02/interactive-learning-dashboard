@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Learning Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <button id="darkModeToggle" class="dark-mode-toggle">
+        <span class="sun">🌞</span>
+        <span class="moon">🌙</span>
+    </button>
+    <h1>Interactive Learning Dashboard</h1>
+  </header>
+
+  <main>
+    <!-- Progress Section -->
+    <section id="progress-section">
+      <h2>Your Learning Progress</h2>
+      <canvas id="progressChart"></canvas>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz-section">
+      <h2>Take a Quiz</h2>
+      <div id="quiz-container"></div>
+      <button id="start-quiz">Start Quiz</button>
+    </section>
+
+    <!-- Resource Suggestions -->
+    <section id="resources-section">
+      <h2>Recommended Learning Resources</h2>
+      <ul id="resources-list"></ul>
+    </section>
+
+    <!-- Health Tips Section -->
+    <section id="health-tips-section">
+      <h2>Health Tips for Students</h2>
+      <ul id="health-tips-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
